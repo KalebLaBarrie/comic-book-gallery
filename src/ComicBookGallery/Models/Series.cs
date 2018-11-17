@@ -9,7 +9,7 @@ namespace ComicBookGallery.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public string DecsriptionHtml { get; set; }
+        public string DescriptionHtml { get; set; }
         public ComicBook[] Issues { get; set; }
     }
 }
